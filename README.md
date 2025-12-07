@@ -26,12 +26,14 @@ FaceComplimentAI/
 │   ├── models/
 │   ├── utils/
 │   └── main.py
-│
+
+
 │── frontend/
 │   ├── templates/
 │   ├── static/
 │   └── app.py
-│
+
+
 │── samples/
 │   └── test_images/
 │
@@ -78,8 +80,8 @@ flask
 
 ##Usage
 1. Clone the Repository
-git clone https://github.com/yourusername/FaceComplimentAI.git
-cd FaceComplimentAI
+git clone https://github.com/StitiRout/FacePlus.git
+cd FacePlus
 
 2. Install Dependencies
 pip install -r requirements.txt
