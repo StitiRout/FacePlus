@@ -8,7 +8,7 @@ A fun and intelligent face-analysis application that detects facial features, ca
 
 ## Tech Stack
 - Python, OpenCV, MediaPipe
-- (Optional) Flask + HTML/CSS/JS for web UI
+- Flask + HTML/CSS/JS for web UI
 
 ## How to Run
 1. Clone the repo
