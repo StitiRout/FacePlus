@@ -1,4 +1,4 @@
-##FacePlus – Instant Face Beauty Analyzer
+## FacePlus – Instant Face Beauty Analyzer
 
 FacePlus is a web-based application that analyzes a user’s facial image and provides a beauty score along with a positive compliment. The project focuses on face positivity, user-friendly design, and smooth interaction using a modern web interface.
 
