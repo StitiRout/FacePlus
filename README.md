@@ -1,4 +1,4 @@
-. FacePlus – Instant Face Beauty Analyzer
+##FacePlus – Instant Face Beauty Analyzer
 
 FacePlus is a web-based application that analyzes a user’s facial image and provides a beauty score along with a positive compliment. The project focuses on face positivity, user-friendly design, and smooth interaction using a modern web interface.
 
@@ -6,7 +6,7 @@ The application guides users through a multi-step experience—starting with an 
 
 ⚠️ Note: This project is intended for educational and experimental purposes only and promotes positivity, not judgment.
 
-🚀 Features
+ ##Features
 
 🌈 Attractive landing splash with project branding
 
@@ -22,8 +22,8 @@ The application guides users through a multi-step experience—starting with an 
 
 ⚡ Smooth animations and transitions
 
-🛠️ Tech Stack
-Frontend
+## Tech Stack
+##Frontend
 
 HTML
 
@@ -43,7 +43,7 @@ Node.js / Express (for future AI integration)
 
 Python (optional – for ML-based face analysis)
 
-📁 Folder Structure
+## Folder Structure
 FacePlus/
 │
 ├── frontend/
@@ -63,7 +63,7 @@ FacePlus/
 │
 └── backend/ (optional / future scope)
 
-📦 Prerequisites
+## Prerequisites
 
 Node.js (v16 or above)
 
@@ -73,11 +73,11 @@ A modern web browser (Chrome recommended)
 
 VS Code / Cursor IDE
 
-▶️ Usage
+## Usage
 
 Clone the repository:
 
-git clone https://github.com/your-username/FacePlus.git
+git clone https://github.com/StitiRout/FacePlus.git
 
 
 Navigate to frontend:
@@ -104,7 +104,7 @@ npm run dev      # Start development server
 npm run build    # Build for production
 npm run preview  # Preview production build
 
-🎯 Future Enhancements
+## Future Enhancements
 
 Real AI-based facial analysis using ML models
 
