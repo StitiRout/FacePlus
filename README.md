@@ -6,7 +6,7 @@ The application guides users through a multi-step experience—starting with an 
 
 ⚠️ Note: This project is intended for educational and experimental purposes only and promotes positivity, not judgment.
 
- ##Features
+ ## Features
 
 🌈 Attractive landing splash with project branding
 
