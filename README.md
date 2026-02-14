@@ -37,11 +37,9 @@ Tailwind CSS (for styling)
 
 Framer Motion (for animations)
 
-Backend (Planned / Optional)
+Backend 
 
-Node.js / Express (for future AI integration)
-
-Python (optional – for ML-based face analysis)
+Node.js 
 
 ## Folder Structure
 FacePlus/
@@ -62,48 +60,6 @@ FacePlus/
 │   └── README.md
 │
 └── backend/ (optional / future scope)
-
-## Prerequisites
-
-Node.js (v16 or above)
-
-npm or yarn
-
-A modern web browser (Chrome recommended)
-
-VS Code / Cursor IDE
-
-## Usage
-
-Clone the repository:
-
-git clone https://github.com/StitiRout/FacePlus.git
-
-
-Navigate to frontend:
-
-cd FacePlus/frontend
-
-
-Install dependencies:
-
-npm install
-
-
-Start the development server:
-
-npm run dev
-
-
-Open in browser:
-
-http://localhost:5000
-
-🧪 Development Scripts
-npm run dev      # Start development server
-npm run build    # Build for production
-npm run preview  # Preview production build
-
 ## Future Enhancements
 
 Real AI-based facial analysis using ML models
