@@ -18,8 +18,6 @@ The application guides users through a multi-step experience—starting with an 
 
 💬 Positive compliment based on analysis
 
-🎨 Modern UI inspired by Figma designs
-
 ⚡ Smooth animations and transitions
 
 ## Tech Stack
