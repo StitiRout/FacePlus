@@ -33,6 +33,33 @@ JavaScript
 # Backend 
 Python
 
+## Realistic view
+HTML/CSS/JavaScript
+        ↓
+Upload image / Camera
+        ↓
+      Flask
+        ↓
+      OpenCV
+        ↓
+   Face Detection
+        ↓
+ Facial Feature Analysis
+        ↓
+ ┌──────────────────┐
+ │ Face detected?   │
+ │ Smile detected?  │
+ │ Symmetry score   │
+ └────────┬─────────┘
+          ↓
+    Positivity Score
+          ↓
+    Compliment Logic
+          ↓
+      JSON Response
+          ↓
+    JavaScript UI
+    
 ## Future Enhancements
 
 Real AI-based facial analysis using ML models
