@@ -8,12 +8,6 @@ Complete guide to run both the Backend and Frontend of FacePlus.
 - **Python 3.8 or higher** (Check with `python --version`)
 - **pip** (Python package manager, usually comes with Python)
 
-### For Frontend:
-- **Node.js 16+ and npm** (Check with `node --version` and `npm --version`)
-- Download from: https://nodejs.org/
-
----
-
 ## Step 1: Setup Backend (Python Flask)
 
 ### 1.1 Navigate to Backend directory
@@ -78,7 +72,7 @@ You should see output like:
 
 ---
 
-## Step 2: Setup Frontend (React + Vite)
+## Step 2: Setup Frontend 
 
 ### 2.1 Open a NEW Terminal Window
 
@@ -89,27 +83,8 @@ You should see output like:
 cd Frontend
 ```
 
-### 2.3 Install Dependencies
-```bash
-npm install
-```
 
-This will install all React and UI dependencies. It may take a few minutes.
-
-### 2.4 Run the Frontend Development Server
-```bash
-npm run dev
-```
-
-You should see output like:
-```
-  VITE v6.3.5  ready in 500 ms
-
-  ➜  Local:   http://localhost:5173/
-  ➜  Network: use --host to expose
-```
-
-**✅ Frontend is now running on `http://localhost:5173`**
+**✅ Frontend is  running on `http://localhost:5173`**
 
 ---
 
@@ -137,9 +112,6 @@ python app.py
 **Terminal 2 (Frontend):**
 ```bash
 cd Frontend
-npm install
-npm run dev
-```
 
 **Then open:** http://localhost:5173 in your browser
 
@@ -169,26 +141,6 @@ npm run dev
   ```
 - Update frontend `.env` file with new port
 
-### Frontend Issues
-
-**Problem: `npm` command not found**
-- Install Node.js from https://nodejs.org/
-- Restart terminal after installation
-
-**Problem: Port 5173 already in use**
-- Vite will automatically use the next available port
-- Check terminal output for the actual port
-
-**Problem: Cannot connect to backend**
-- Make sure backend is running on port 5000
-- Check backend terminal for errors
-- Verify CORS is enabled in backend (it should be)
-
-**Problem: Face detection not working**
-- Make sure backend is running
-- Check browser console for errors (F12)
-- Verify image has a clear, visible face
-- Check backend terminal for error messages
 
 ### General Issues
 
@@ -203,7 +155,7 @@ npm run dev
   ```bash
   rm -rf node_modules  # macOS/Linux
   rmdir /s node_modules  # Windows
-  npm install
+  
   ```
 
 ---
@@ -224,7 +176,7 @@ npm run dev
 ### Build Frontend for Production:
 ```bash
 cd Frontend
-npm run build
+
 ```
 
 Built files will be in `Frontend/dist/` directory.
