@@ -12,7 +12,7 @@ The application guides users through a multi-step experience—starting with an 
 
 🧭 Step-by-step navigation (Splash → Welcome → Dashboard)
 
-📷 Upload image or use live camera
+📷 Upload image 
 
 📊 Instant beauty score generation
 
@@ -21,7 +21,7 @@ The application guides users through a multi-step experience—starting with an 
 ⚡ Smooth animations and transitions
 
 ## Tech Stack
-##Frontend
+# Frontend
 
 HTML
 
@@ -29,35 +29,10 @@ CSS
 
 JavaScript
 
-React (with TypeScript)
 
-Tailwind CSS (for styling)
+# Backend 
+Python
 
-Framer Motion (for animations)
-
-Backend 
-
-Node.js 
-
-## Folder Structure
-FacePlus/
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── SplashScreen.tsx
-│   │   │   ├── WelcomeScreen.tsx
-│   │   │   ├── DashboardScreen.tsx
-│   │   │   └── AnalysisScreen.tsx
-│   │   ├── styles/
-│   │   │   └── globals.css
-│   │   ├── App.tsx
-│   │   └── main.tsx
-│   ├── index.html
-│   ├── package.json
-│   └── README.md
-│
-└── backend/ (optional / future scope)
 ## Future Enhancements
 
 Real AI-based facial analysis using ML models
