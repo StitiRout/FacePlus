@@ -38,8 +38,6 @@ HTML/CSS/JavaScript
         ↓
 Upload image / Camera
         ↓
-      Flask
-        ↓
       OpenCV
         ↓
    Face Detection
